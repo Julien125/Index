@@ -660,7 +660,7 @@ p,li {
    font-family: 'HKGrotesk-Regular';
    font-weight: 700;
    font-style: normal;
-   font-size: 1.15rem;
+   font-size: 1rem;
    letter-spacing: 1px
 
 }
@@ -814,5 +814,3 @@ body{padding-top:75px;}
 
 .section-top{padding-bottom:0rem;padding-top:0}
 .section-man{padding-top:0rem; background-color: #fff}
-
-.footer,p,li{font-size: 0.8rem}
