@@ -84,7 +84,7 @@ section {
 body {
     margin: 0;
     font-family: Objective, sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.75;
     color: #212529;
@@ -594,31 +594,31 @@ h1 {
     font-size: 3rem;
     margin-top: 5rem;
     text-align: center;
-    margin-left: 15%;
-    margin-right:15%;
-    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top: 3rem;
     margin-bottom: 3rem;
     justify-content: center;
-    position: sticky;
-    top:auto;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
 
 }
 
 .h2,
 h2 {
     font-size: 2rem;
-    margin-left: 20%;
-    margin-right:20%;
+    margin-left: 10%;
+    margin-right:10%;
 }
 
 .h3,
 h3 {
-    font-size: 1.375rem
+    font-size: 1.6rem
 }
 
 .h4,
 h4 {
-    font-size: 1.13rem;
+    font-size: 1.4rem;
     margin: 1.5rem;
 
 }
@@ -660,7 +660,7 @@ p,li {
    font-family: 'HKGrotesk-Regular';
    font-weight: 700;
    font-style: normal;
-   font-size: 0.9rem;
+   font-size: 1.15rem;
    letter-spacing: 1px
 
 }
@@ -814,3 +814,5 @@ body{padding-top:75px;}
 
 .section-top{padding-bottom:0rem;padding-top:0}
 .section-man{padding-top:0rem; background-color: #fff}
+
+.footer,p,li{font-size: 0.8rem}
