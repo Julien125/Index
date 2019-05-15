@@ -664,8 +664,8 @@ p,li {
    letter-spacing: 1px
 
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{ font-family: "Bebas_Neue";
-font-weight: 800;
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{ font-family: 'BebasNeueBold';
+font-weight: normal;
 font-style: normal;
 letter-spacing: 0.15em;
 }
@@ -814,3 +814,6 @@ body{padding-top:75px;}
 
 .section-top{padding-bottom:0rem;padding-top:0}
 .section-man{padding-top:0rem; background-color: #fff}
+
+.card { transition: all .2s ease-in-out; }
+.card:hover { transform: scale(1.2); }
