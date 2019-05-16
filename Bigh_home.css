@@ -713,6 +713,7 @@ border: 1px solid;
 border-color: #8CC6D7;
 text-align:left;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+min-width:300px
 }
 
 .inside-card {
@@ -1125,9 +1126,9 @@ body{padding-top:75px;}
 	color: rgba(0,0,0,0.2);
 	font-weight: 900;
 	text-shadow: none;
-  letter-spacing: 2.5px;
+  font-size: 1rem;
 
-  border:4px solid white;
+  border:2px solid white;
   border-radius:20px;
   padding:1rem
 
