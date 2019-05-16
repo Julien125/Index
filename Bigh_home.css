@@ -11,7 +11,7 @@ section{padding-top:5rem;padding-bottom: 5rem}
   right:0;
 }
 .bg-cover{
-  background-image:url("https://images.unsplash.com/photo-1524486361537-8ad15938e1a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=6024&q=80");
+  background-image:url(Image/Pictures/Serre_tomate-min.jpeg);
   -moz-background-size:cover;
   background-position: 50%;
   background-size: cover;
@@ -591,7 +591,7 @@ padding:1em;
 .container-top{margin-bottom: 5em;margin-top:10rem}
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-top: 5rem;
     text-align: center;
     margin-left: 5%;
@@ -601,6 +601,7 @@ h1 {
     justify-content: center;
     padding-top:0.5rem;
     padding-bottom:0.5rem;
+    color:#fff;
 
 }
 
@@ -682,7 +683,8 @@ letter-spacing: 0.15em;
   src: url("Font/BebasNeue-Regular.otf");
 }
 
-#believe{margin-top: 9rem}
+#believe{margin-top: 5rem;}
+#believe h3{color:black;}
 .manifesto .list-item{list-style-type: none;}
 .list-title{text-decoration: underline;}
 
@@ -697,17 +699,21 @@ text-align: center;
 }
 
 /*Methode*/
-
+#methode{
+  margin-right: 0;
+  margin-left: 0;
+  background-color:#5CDB95;
+}
 #methode h1 {
-
-background-color:#97BF04 ;
-color: #fff;
 border-radius: 25px;
 }
+.methode{padding-left: 5%;padding-right:5%}
 .card{margin-top:2rem;
 border: 1px solid;
 border-color: #8CC6D7;
-text-align:left}
+text-align:left;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .inside-card {
     border: 0;
@@ -739,13 +745,12 @@ padding-bottom:5px;}
 img{margin-top:2rem;}
 
 #prod{color:#fff;
-background-color: #F24738;
+
 border-radius:15px;}
 
 #icon_prod{margin-top:0;}
 
 #visite{color:#fff;
-background-color:#F27405;
 border-radius: 15px;}
 #press{margin:2rem;}
 
@@ -807,13 +812,181 @@ border-radius: 15px;}
 }
 #visite-section .card{margin-top:2rem;
 border: 1px solid;
-border-color: #FF9E38;
+
 text-align:left}
 body{padding-top:75px;}
 
-
+.hr-white{background-color:#fff;margin-left:5%;margin-right:5%;}
 .section-top{padding-bottom:0rem;padding-top:0}
-.section-man{padding-top:0rem; background-color: #fff}
+.section-man{padding-top:0rem; background-color: #f2f1ed}
+.section-man .container{margin-left: 5%;margin-right:5%}
 
 .card { transition: all .2s ease-in-out; }
-.card:hover { transform: scale(1.2); }
+.card:hover { transform: scale(1.1); }
+#detail{margin-top: 6rem;margin-bottom: 3rem; margin-left:5%;margin-right:5%;border-radius: 20px;}
+#detail_titre{color:#5cdb95;padding-top: 3rem;border-bottom:2px solid #5cdb95;}
+.produits{background-color:#E7717D; padding-right:5%;padding-left:5%}
+.produits h2{color:#fff;}
+.img_produit{margin-top:0; border:4px solid #fff;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
+
+.color-white{color:#fff}
+#visite-section{background-color:#659DBD;}
+
+.card-header{background-color:#bdae65;}
+.card-footer{background-color:#bdae65;}
+
+
+
+
+.bg-1 {
+	background: #ECEFF1;
+	color: #37474f;}
+.button {
+	float: left;
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.button:focus {
+	outline: none;
+}
+.button > span {
+	vertical-align: middle;
+}
+
+/* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari) */
+.bg-1 .button {
+	color: #37474f;
+	border-color: #37474f;
+}
+.button--text-thick {
+	font-weight: 600;
+}
+.button--itzel {
+	border: none;
+	padding: 0px;
+	overflow: hidden;
+	width: 255px;
+}
+.button--itzel::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid;
+	border-radius: inherit;
+	-webkit-clip-path: polygon(0% 0%, 0% 100%, 35% 100%, 35% 60%, 65% 60%, 65% 100%, 100% 100%, 100% 0%);
+	clip-path: url(../index.html#clipBox);
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+}
+
+.button--itzel.button--border-thin::before {
+	border: 1px solid;
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -1px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -1px, 0);
+}
+.button--itzel.button--border-thick::before {
+	border: 3px solid;
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+}
+
+.button--itzel::before,
+.button--itzel .button__icon {
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--itzel .button__icon {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	padding: 20px;
+	font-size: 20px;
+	-webkit-transform: translate3d(-50%, 0, 0);
+	transform: translate3d(-50%, 0, 0);
+}
+.button--itzel > span {
+	display: block;
+	padding: 20px;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+.button--itzel:hover::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.button--itzel:hover .button__icon {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	-webkit-transform: translate3d(-50%, -100%, 0);
+	transform: translate3d(-50%, -100%, 0);
+}
+.button--itzel:hover > span {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -50%, 0);
+	transform: translate3d(0, -50%, 0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.button--rayen {
+	overflow: hidden;
+	padding: 0;
+	width: 230px;
+}
+.button--rayen.button--inverted {
+	color: #fff;
+}
+.button--rayen::before {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #7986cb;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+.button--rayen.button--inverted::before {
+	background: #fff;
+	color: #37474f;
+}
+.button--rayen > span {
+	display: block;
+}
+.button--rayen::before,
+.button--rayen > span {
+	padding: 1em 2em;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--rayen:hover::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.button--rayen:hover > span {
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+}
