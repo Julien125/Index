@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css" />
+
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -120,9 +120,9 @@
       <div class="col-md-auto tracking-in-expand">
         <div class="justify-content-auto text-right">
           <img id="logo" src="Image/Logo_bigh/BIGH_text_blanc.png" alt=""></div>
-        <h2 class="text-right text-light tracking-in-expand mr-0">Nous cultivons plus près de vous,</h2>
-        <h2 class="text-right mb-4 text-light tracking-in-expand mr-0">plus près des étoiles. </h2>
-        <h4 class="text-right text-light">Ferme urbaine -made in Bruxelles-</h4>
+        <h2 id="header1"class="text-right text-light tracking-in-expand mr-0">Nous cultivons <span>plus près de vous,</span></h2>
+        <h2 id="header1" class="text-right mb-4 text-light tracking-in-expand mr-0"><span>plus près des étoiles</span>. </h2>
+        <h4 id="header1" class="text-right text-light"><span>Ferme urbaine -made in Bruxelles-</span></h4>
 
         <div class="text-center mt-5"><button type="button" name="button" class="btn" id="CTA_header">
             Trouver nos produits
@@ -141,7 +141,7 @@
   <section class="section-man">
     <div class="container">
       <div class="row">
-        <div class="text-light display-4 col-lg-5 py-5 align-items-center" style="background-color:#8C593B; border-radius:23px;margin-bottom:5rem;">
+        <div class="text-light display-4 col-lg-4 py-5 align-items-center" style="background-color:#8C593B; border-radius:23px;margin-bottom:5rem;">
           <h2>Nous sommes un groupe d'architectes, d'ingénieurs, de paysans et ...</h2>
 
         </div>
@@ -152,7 +152,7 @@
               <li class="list-title">
                 <h4>LE CHANGEMENT</h4>
               </li>
-              <li class="list-item">Parce que le modèle agricole doit evoluer afin de mieux respecter l'environnement, économiser les ressourceset protéger la biodiversité.</li>
+              <li class="list-item">Parce que le modèle agricole doit évoluer afin de mieux respecter l'environnement, économiser les ressources et protéger la biodiversité.</li>
             </ul>
             <ul>
               <li class="list-title">
@@ -174,8 +174,8 @@
             </ul>
           </ul>
           <div id="vision">
-            <p id="vision2" class="lead">C'est pour soutenir cette vision que nous avons créé BIGH et nous avons construit notre première ferme urbaine sur le toit du FoodMet à Bruxelles.</p>
-            <h4 class="text-center">Avec vous, nous allons en construire d'autres et changer l'agriculture.</h4>
+            <p id="vision2" class="">C'est pour soutenir cette vision que nous avons créé BIGH. Nous avons construit notre première ferme urbaine sur le toit du FoodMet à Bruxelles.</p>
+            <p class="text-center mt-4 p-bold">Avec vous, nous allons en construire d'autres et changer l'agriculture.</p>
           </div>
         </div>
       </div>
@@ -285,7 +285,9 @@
               <h4 class="card-title">Aucun pesticides, ni herbicides, ni antibiotiques</h4>
               <hr class="inside-card">
               <div class="card-text">
-                <p>Nous préferons miser sur la prévention. Nous empéchons les ravageurs de rentrer par des filets. Nous maintenons l'aération pour limiter l'humidité.
+                <p>Nous préférons la prévention à la répréssion.
+                </p>
+                <p>On ne joue pas avec la santé de nos consommateurs</p>
               </div>
             </div>
           </div>
@@ -299,7 +301,7 @@
               <h4 class="card-title">Moins de transport</h4>
               <hr class="inside-card">
               <div class="card-text">
-                <p>Toutes nos livraisons s'effectuent à Bruxelles. Nous produisons dans la ville pour la ville. C'est une guarantie de fraicheur et de qualité.</p>
+                <p>Toutes nos livraisons s'effectuent à Bruxelles. Nous produisons dans la ville pour la ville. C'est une garantie de fraicheur et de qualité.</p>
               </div>
             </div>
           </div>
@@ -359,11 +361,6 @@
         </div>
 
       </div>
-
-    </div>
-    <div class="row">
-      <button class="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Send Message"><span>Send Message</span></button>
-      <button type="button" class="btn button btn-info btn-lg align-center mb-4">Reservez une visite</button>
 
     </div>
     </div>
@@ -456,13 +453,15 @@
           </div>
         </div>
       </div>
-      <div class="item-center">
-        <h2 class="color-white">Les découvrir</h2>
-        <div class="row">
-          <button type="button" name="button">Circuit court</button>
-          <button type="button" name="button">Trouver un detaillant</button>
+
+        <div class="row" id="cta_boutique">
+          <button  id="direct" class="button button--shikoba"type="button" name="button"><i class=" button__icon fas fa-shopping-basket"></i><span>Je commande chez BIGH</span></button>
+
+          <button id="commercant" class="button button--shikoba" type="button" name="button"><i class="fas fa-store-alt button__icon"></i><span>Trouver un détaillant</span></button>
         </div>
-      </div>
+        <div class="row" id="cta_boutique">
+          <button  id="direct" class="button button--tamaya"type="button" name="button" data-text="Je veux en savoir plus sur les produits BIGH"><span>Je veux en savoir plus sur les produits BIGH</span></button>
+
     </div>
 
     </div>
@@ -509,7 +508,7 @@
         </div>
         <div class="card-footer text-center">
           <span class="btn cl-effect-15">
-            <a href="#" data-hover="Prochains Lab">Prochains Lab</a>
+            <a href="#" data-hover="Je participe">Je participe</a>
           </span>
         </div>
       </div>
@@ -527,7 +526,7 @@
         </div>
         <div class="card-footer text-center">
           <div class="cl-effect-15 btn">
-            <a href="#" data-hover="Reserver une visite">Reserver une visite</a>
+            <a href="#" data-hover="Je viens voir">Je viens voir</a>
           </div>
         </div>
       </div>
@@ -539,13 +538,13 @@
         <div class="card-body">
           <img src="Image/svg/student.svg" class="img-fluid" width="15%" id="icon_prod">
           <h5 class="card-title text-uppercase">Initiation</h5>
-          <p class="card-text">On ouvre le capot et on démonte. Une demi-journée avec l’un de nos experts dans un cours de pure reverse ingeneering.
+          <p class="card-text">On ouvre le capot et on démonte. Une demie-journée avec l’un de nos experts dans un cours de pure reverse ingeneering.
           </p>
           <p>Vous étudions le fonctionnement de la partie aquacole, agricole, les contraintes techniques d'une serre sur les toits...</p>
         </div>
         <div class="card-footer text-center">
           <div class="cl-effect-15 btn">
-            <a href="#" data-hover="prochaine session">Prochaine session</a>
+            <a href="#" data-hover="prochaine session">prochaine session</a>
           </div>
         </div>
 
@@ -563,7 +562,7 @@
     </p>
 
     <div class="d-flex justify-content-center my-4">
-      <button class="btn button--itzel button--text-thick"><i class="button__icon icon icon-envelope fas fa-envelope"></i><span>Autre demande</span></button>
+      <button class="button button--itzel button--text-thick"><i class="button__icon icon fas fa-envelope"></i><span>Autre demande</span></button>
     </div>
   </section>
 
