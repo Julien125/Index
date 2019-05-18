@@ -27,12 +27,14 @@ section{padding-top:5rem;padding-bottom: 5rem}
   background-repeat: no-repeat;
   margin:0;
 padding:0;
-min-height:700px}
+min-height:800px}
+
+
 .bg-overlay:before{
   content:"";
   background-color:#212529;
   opacity:.55;
-  min-height:700px
+  min-height:00px
 }
 #logo{position:relative;
 width: 100px;height: auto;}
@@ -1000,7 +1002,7 @@ body{padding-top:75px;}
 
 .hr-white{background-color:#fff;margin-left:5%;margin-right:5%;}
 .section-top{padding-bottom:0rem;padding-top:0}
-.section-man{padding-top:0rem; background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);}
+.section-man{padding-top:22%; background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);}
 .section-man .container{margin-left: 5%;margin-right:5%}
 
 .card { transition: all .2s ease-in-out; }
