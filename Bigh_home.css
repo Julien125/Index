@@ -8,7 +8,7 @@ html {
   padding-top: 11rem;
 }
 
-
+.bg-overlay{min-height:800px}
 section{padding-top:5rem;padding-bottom: 5rem}
 .bg-cover,.bg-overlay,.bg-overlay:before{
   position: absolute;
