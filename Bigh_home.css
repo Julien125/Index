@@ -871,7 +871,7 @@ letter-spacing: 0.15em;
 .manifesto .list-item{list-style-type: none;}
 .list-title{text-decoration: underline;}
 
-#vision{padding-top: 1.5rem; padding-left: 1rem;margin-bottom: 10rem;
+#vision{padding-top: 1.5rem; padding-left: 1rem;margin-bottom: 5rem;
 }
 #vision2{border-left: 3px solid lightgreen;
     padding-left: 10px;
@@ -915,6 +915,52 @@ min-width:300px
   border-radius:15px;
   color:white;
 }
+
+.cl-effect-11 a{
+	padding: 10px 0;
+	border-top: 2px solid black;
+	color: black;
+	text-shadow: none;
+;
+}
+
+.cl-effect-11 a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding: 10px 0;
+	max-width: 0;
+	border-bottom: 2px solid #69FF96;
+	color: #69FF96;
+	content: attr(data-hover);
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;
+}
+
+.cl-effect-11 a:hover::before,
+.cl-effect-11 a:focus::before {
+	max-width: 100%;
+}
+.btn a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+  font-family: 'HKGrotesk-bold', sans-serif;
+  ;
+
+
+}
+
 #composteur{background-color: #a3816a;
 color:white;
 border-radius: 15px}
