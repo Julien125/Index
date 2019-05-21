@@ -1070,7 +1070,7 @@ body{padding-top:75px;}
 
 .social a:hover{color:#429bf4 !important;}
 
-@media only screen and (max-width: 360px) {h1 {font-size: 3em;}{h2 {font-size:2em}}}
+@media only screen and (max-width: 400px) {h1 {font-size: 2.5em;}{h2 {font-size:1.5em}}}
 
 .p-bold{font-family: 'HKGrotesk-bold', sans-serif;text-transform: uppercase;}
 .bg-1 {
