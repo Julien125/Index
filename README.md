@@ -1,5 +1,5 @@
 # Index
-Landing page for an urban farmer company. 
+It's a project for a landing page for an urban farmer company. 
 Just a part of case study.
 Wrote in French. Didn't work a lot on design, instead it was more about copywritting and storytelling.
 
