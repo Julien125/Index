@@ -1,6 +1,12 @@
 # Index
-This is an Small home page for a belgian's urban farm.
-Most of this project is more about copywritting and value propositions than design. I wasn't able to find good picture from the company, so I took pictures from unsplash.
+Landing page for an urban farmer company. 
+Just a part of case study.
+Wrote in French. Didn't work a lot on design, instead it was more about copywritting and storytelling.
 
-Comments are more than welcome.
+
+https://julien125.github.io/Index/
+
+With Love
+Julien
+julien.coupain@gmail.com
 
