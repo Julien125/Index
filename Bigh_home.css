@@ -16,18 +16,22 @@ section{padding-top:5rem;padding-bottom: 5rem}
   bottom :0;
   left:0;
   right:0;
+
 }
 .bg-cover{
-  background-image:url(Image/Pictures/Serre_tomate-min.jpeg);
+  background-image:url(Image/Pictures/Serre_tomate-min.jpg);
   -moz-background-size:cover;
-  background-position: 50%;
+  background-position: center;
   background-size: cover;
   -webkit-background-size:cover;
   -o-background-size:cover;
   background-repeat: no-repeat;
   margin:0;
 padding:0;
-min-height:800px}
+min-height:800px;
+position:relative;
+margin-top:-70px;
+z-index-1;}
 
 
 .bg-overlay:before{
@@ -100,7 +104,9 @@ body {
     line-height: 1.75;
     color: #212529;
     text-align: left;
-    background-color: #f5f5f5
+    background-color: #f5f5f5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width:576px) {
@@ -111,7 +117,7 @@ body {
     .navbar-expand-sm .navbar-nav {
         flex-direction: row
     }
-    .navbar-expand-sm .navbar-nav .dropdown-menu {
+    .navbar-expand-sm .navbar-nav .dropdown-me {
         position: absolute
     }
     .navbar-expand-sm .navbar-nav .nav-link {
@@ -728,12 +734,6 @@ body {
    white-space: nowrap;
  }
 
- h2{letter-spacing: 0.05em}
-
- .btn {
-
-
-}
 .btn {
     font-weight: 500;
 min-width: 150px;
@@ -770,7 +770,7 @@ padding:1em;
 #CTA_header:hover{
   background-color:#77BDD9;
 }
-.container-top{margin-bottom: 5%;margin-top:5%}
+.container-top{margin-bottom: 5%;margin-top:20%}
 
 h1 {
     font-size: 5rem;
@@ -847,10 +847,10 @@ p,li {
    letter-spacing: 1px
 
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{ font-family: 'BebasNeueBold';
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{ font-family: 'HKGrotesk-bold';
 font-weight: normal;
 font-style: normal;
-letter-spacing: 0.15em;
+;
 }
 @font-face {
   font-family: "HKGrotesk-Regular";
@@ -866,6 +866,8 @@ letter-spacing: 0.15em;
 }
 @font-face{font-family:"BebasNeueBold";
   src:url("Font/BebasNeue_Bold.ttf")}
+
+
 #believe{margin-top: 5rem;}
 #believe h3{color:black;}
 .manifesto .list-item{list-style-type: none;}
@@ -918,9 +920,9 @@ min-width:300px
 
 .cl-effect-11 a{
 	padding: 10px 0;
-	border-top: 2px solid black;
-  border-bottom:2px solid black;
-	color: black;
+	border-top: 2px solid white;
+  border-bottom:2px solid white;
+	color: white;
 	text-shadow: none;
 ;
 }
@@ -949,7 +951,7 @@ min-width:300px
 	display: inline-block;
 	margin: 15px 25px;
 	outline: none;
-	color: black;
+	color: #f5f5f5  ;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -1049,7 +1051,7 @@ body{padding-top:75px;}
 
 .hr-white{background-color:#fff;margin-left:5%;margin-right:5%;}
 .section-top{padding-bottom:0rem;padding-top:0}
-.section-man{padding-top:22%; background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);}
+
 .section-man .container{margin-left: 5%;margin-right:5%}
 
 .card { transition: all .2s ease-in-out; }
@@ -1070,12 +1072,13 @@ body{padding-top:75px;}
 
 .social a:hover{color:#429bf4 !important;}
 
-@media only screen and (max-width: 400px) {h1 {font-size: 2.5em;}{h2 {font-size:1.5em}}}
+@media only screen and (max-width: 400px) {h1 {font-size: 2.5em;}{ h2 {font-size:1.5em}}}
 
 .p-bold{font-family: 'HKGrotesk-bold', sans-serif;text-transform: uppercase;}
 .bg-1 {
 	background: #ECEFF1;
 	color: #37474f;}
+.list-title{list-style-type:none}
 
 .button {
 	float: left;
@@ -1105,7 +1108,6 @@ height: auto;
 	vertical-align: middle;
 }
 
-/* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari) */
 .bg-1 .button {
 	color: #37474f;
 	border-color: #37474f;
@@ -1130,7 +1132,7 @@ height: auto;
 	border: 2px solid;
 	border-radius: inherit;
 	-webkit-clip-path: polygon(0% 0%, 0% 100%, 35% 100%, 35% 60%, 65% 60%, 65% 100%, 100% 100%, 100% 0%);
-	clip-path: url(../index.html#clipBox);
+;
 	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
 	transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
 	-webkit-transform-origin: 50% 100%;
